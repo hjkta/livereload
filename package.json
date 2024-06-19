@@ -1,0 +1,21 @@
+{
+  "name": "livereload",
+  "version": "1.0.0",
+  "description": "For education only",
+  "scripts": {
+    "start": "browser-sync start --server src --no-notify --no-ui --cwd src --files src/*.html, src/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hjkta/livereload.git"
+  },
+  "author": "hjkta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hjkta/livereload/issues"
+  },
+  "homepage": "https://github.com/hjkta/livereload#readme",
+  "devDependencies": {
+    "browser-sync": "^3.0.2"
+  }
+}
